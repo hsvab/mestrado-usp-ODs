@@ -1,754 +1,754 @@
-2016-01-03 11:57:35,183 | INFO: Definindo as funções gerais assessórias
-2016-01-03 11:57:35,185 | INFO: 
+2016-01-04 20:16:24,907 | INFO: Definindo as funções gerais assessórias
+2016-01-04 20:16:24,909 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:35,267 | INFO: Definindo as funções gerais
-2016-01-03 11:57:35,270 | INFO: 
+2016-01-04 20:16:24,958 | INFO: Definindo as funções gerais
+2016-01-04 20:16:24,959 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:35,389 | INFO: Definindo as funções do domicílio
-2016-01-03 11:57:35,391 | INFO: 
+2016-01-04 20:16:25,031 | INFO: Definindo as funções do domicílio
+2016-01-04 20:16:25,033 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:35,545 | INFO: Definindo as funções da família
-2016-01-03 11:57:35,547 | INFO: 
+2016-01-04 20:16:25,150 | INFO: Definindo as funções da família
+2016-01-04 20:16:25,152 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:36,176 | INFO: Definindo as funções da pessoa
-2016-01-03 11:57:36,179 | INFO: 
+2016-01-04 20:16:25,494 | INFO: Definindo as funções da pessoa
+2016-01-04 20:16:25,496 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:39,225 | INFO: Definindo funções referentes às viagens
-2016-01-03 11:57:39,227 | INFO: 
+2016-01-04 20:16:27,754 | INFO: Definindo funções referentes às viagens
+2016-01-04 20:16:27,756 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:39,461 | INFO: Definindo funções que geram os "NO"s e os "ID"s
-2016-01-03 11:57:39,465 | INFO: 
+2016-01-04 20:16:27,865 | INFO: Definindo funções que geram os "NO"s e os "ID"s
+2016-01-04 20:16:27,867 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:39,486 | INFO: Definindo função relativa à entrevista
-2016-01-03 11:57:39,489 | INFO: 
+2016-01-04 20:16:27,881 | INFO: Definindo função relativa à entrevista
+2016-01-04 20:16:27,888 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:40,334 | INFO: Horário de início da execução: 11:57
-2016-01-03 11:57:40,336 | INFO: Lendo arquivos CSV
-2016-01-03 11:57:40,336 | INFO: Lendo CSV da base original da OD.
-2016-01-03 11:57:51,764 | INFO: Deflator a ser utilizado para correção monetária: 1.94136464
-2016-01-03 11:57:51,777 | INFO: 
+2016-01-04 20:16:28,508 | INFO: Horário de início da execução: 20:16
+2016-01-04 20:16:28,510 | INFO: Lendo arquivos CSV
+2016-01-04 20:16:28,511 | INFO: Lendo CSV da base original da OD.
+2016-01-04 20:16:31,460 | INFO: Deflator a ser utilizado para correção monetária: 1.94136464
+2016-01-04 20:16:31,469 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:51,777 | INFO: Pré-Processamento.
-2016-01-03 11:57:51,837 | INFO: Criando/Renomeando colunas no dataframe principal
-2016-01-03 11:57:51,840 | INFO: Renomeando coluna UCOD para UCOD_DOM
-2016-01-03 11:57:52,010 | INFO: Renomeando coluna ANDA_CHEG para ANDA_DEST
-2016-01-03 11:57:52,147 | INFO: Verificando se todas as variaveis esperadasexistem no dataframe.
+2016-01-04 20:16:31,473 | INFO: Pré-Processamento.
+2016-01-04 20:16:31,513 | INFO: Criando/Renomeando colunas no dataframe principal
+2016-01-04 20:16:31,515 | INFO: Renomeando coluna UCOD para UCOD_DOM
+2016-01-04 20:16:32,037 | INFO: Renomeando coluna ANDA_CHEG para ANDA_DEST
+2016-01-04 20:16:32,149 | INFO: Verificando se todas as variaveis esperadasexistem no dataframe.
 Caso não exista alguma, ela é criada.
-2016-01-03 11:57:52,173 | INFO: Criando a variavel UCOD_ESC no dataframe
-2016-01-03 11:57:52,181 | INFO: Criando a variavel UCOD_TRAB1 no dataframe
-2016-01-03 11:57:52,189 | INFO: Criando a variavel UCOD_TRAB2 no dataframe
-2016-01-03 11:57:52,197 | INFO: Criando a variavel UCOD_ORIG no dataframe
-2016-01-03 11:57:52,205 | INFO: Criando a variavel UCOD_DEST no dataframe
-2016-01-03 11:57:52,208 | INFO: Reordenando as variáveis
-2016-01-03 11:57:52,385 | INFO: 
+2016-01-04 20:16:32,166 | INFO: Criando a variavel UCOD_ESC no dataframe
+2016-01-04 20:16:32,171 | INFO: Criando a variavel UCOD_TRAB1 no dataframe
+2016-01-04 20:16:32,176 | INFO: Criando a variavel UCOD_TRAB2 no dataframe
+2016-01-04 20:16:32,181 | INFO: Criando a variavel UCOD_ORIG no dataframe
+2016-01-04 20:16:32,185 | INFO: Criando a variavel UCOD_DEST no dataframe
+2016-01-04 20:16:32,187 | INFO: Reordenando as variáveis
+2016-01-04 20:16:32,305 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:52,387 | INFO: 
+2016-01-04 20:16:32,305 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:52,387 | INFO: Imprimindo a lista de variáveis do dataframe da OD.
-2016-01-03 11:57:52,397 | INFO: ### PASSO 1 - ANO
-2016-01-03 11:57:55,461 | INFO: ### PASSO 2 - DIA_SEM
-2016-01-03 11:57:56,010 | INFO: Verificando Range da variável: DIA_SEM
-2016-01-03 11:57:56,029 | INFO: 
+2016-01-04 20:16:32,305 | INFO: Imprimindo a lista de variáveis do dataframe da OD.
+2016-01-04 20:16:32,307 | INFO: ### PASSO 1 - ANO
+2016-01-04 20:16:32,851 | INFO: ### PASSO 2 - DIA_SEM
+2016-01-04 20:16:33,119 | INFO: Verificando Range da variável: DIA_SEM
+2016-01-04 20:16:33,131 | INFO: 
 
         - Mínimo esperado: 2
         - Máximo esperado: 6
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:57:56,177 | INFO: DIA_SEM: Nenhum erro encontrado.
-2016-01-03 11:57:56,179 | INFO: 
+2016-01-04 20:16:33,200 | INFO: DIA_SEM: Nenhum erro encontrado.
+2016-01-04 20:16:33,202 | INFO: 
 
 ===============================================
 
-2016-01-03 11:57:56,179 | INFO: ### PASSO 3 - UCODS
-2016-01-03 11:57:56,181 | INFO: Lendo arquivo auxiliar UCOD
-2016-01-03 11:58:15,341 | INFO: Verificando Range da variável: UCOD_DOM
-2016-01-03 11:58:15,352 | INFO: 
+2016-01-04 20:16:33,202 | INFO: ### PASSO 3 - UCODS
+2016-01-04 20:16:33,204 | INFO: Lendo arquivo auxiliar UCOD
+2016-01-04 20:16:48,493 | INFO: Verificando Range da variável: UCOD_DOM
+2016-01-04 20:16:48,501 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:15,363 | INFO: UCOD_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:15,366 | INFO: Verificando Range da variável: UCOD_ESC
-2016-01-03 11:58:15,387 | INFO: 
+2016-01-04 20:16:48,509 | INFO: UCOD_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:48,510 | INFO: Verificando Range da variável: UCOD_ESC
+2016-01-04 20:16:48,528 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 134127
 
-2016-01-03 11:58:15,423 | INFO: UCOD_ESC: Nenhum erro encontrado.
-2016-01-03 11:58:15,425 | INFO: Verificando Range da variável: UCOD_TRAB1
-2016-01-03 11:58:15,448 | INFO: 
+2016-01-04 20:16:48,558 | INFO: UCOD_ESC: Nenhum erro encontrado.
+2016-01-04 20:16:48,559 | INFO: Verificando Range da variável: UCOD_TRAB1
+2016-01-04 20:16:48,578 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 98370
 
-2016-01-03 11:58:15,486 | INFO: UCOD_TRAB1: Nenhum erro encontrado.
-2016-01-03 11:58:15,489 | INFO: Verificando Range da variável: UCOD_TRAB2
-2016-01-03 11:58:15,509 | INFO: 
+2016-01-04 20:16:48,610 | INFO: UCOD_TRAB1: Nenhum erro encontrado.
+2016-01-04 20:16:48,611 | INFO: Verificando Range da variável: UCOD_TRAB2
+2016-01-04 20:16:48,627 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 196669
 
-2016-01-03 11:58:15,544 | INFO: UCOD_TRAB2: Nenhum erro encontrado.
-2016-01-03 11:58:15,547 | INFO: Verificando Range da variável: UCOD_ORIG
-2016-01-03 11:58:15,577 | INFO: 
+2016-01-04 20:16:48,651 | INFO: UCOD_TRAB2: Nenhum erro encontrado.
+2016-01-04 20:16:48,652 | INFO: Verificando Range da variável: UCOD_ORIG
+2016-01-04 20:16:48,670 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:15,634 | INFO: UCOD_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:15,637 | INFO: Verificando Range da variável: UCOD_DEST
-2016-01-03 11:58:15,661 | INFO: 
+2016-01-04 20:16:48,704 | INFO: UCOD_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:48,706 | INFO: Verificando Range da variável: UCOD_DEST
+2016-01-04 20:16:48,724 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 67
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:15,703 | INFO: UCOD_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:15,705 | INFO: 
+2016-01-04 20:16:48,759 | INFO: UCOD_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:48,760 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:15,705 | INFO: ### PASSO 4 - ZONA_DOM
-2016-01-03 11:58:15,844 | INFO: Verificando Range da variável: ZONA_DOM
-2016-01-03 11:58:15,855 | INFO: 
+2016-01-04 20:16:48,760 | INFO: ### PASSO 4 - ZONA_DOM
+2016-01-04 20:16:48,838 | INFO: Verificando Range da variável: ZONA_DOM
+2016-01-04 20:16:48,846 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:15,954 | INFO: ZONA_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:15,957 | INFO: 
+2016-01-04 20:16:48,902 | INFO: ZONA_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:48,904 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:15,957 | INFO: ### PASSO 5 - SUBZONA_DOM
-2016-01-03 11:58:16,065 | INFO: Verificando Range da variável: SUBZONA_DOM
-2016-01-03 11:58:16,076 | INFO: 
+2016-01-04 20:16:48,904 | INFO: ### PASSO 5 - SUBZONA_DOM
+2016-01-04 20:16:48,975 | INFO: Verificando Range da variável: SUBZONA_DOM
+2016-01-04 20:16:48,983 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:16,152 | INFO: SUBZONA_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:16,155 | INFO: 
+2016-01-04 20:16:49,039 | INFO: SUBZONA_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:49,040 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,155 | INFO: ### PASSO 6 - MUN_DOM
-2016-01-03 11:58:16,259 | INFO: Verificando Range da variável: MUN_DOM
-2016-01-03 11:58:16,269 | INFO: 
+2016-01-04 20:16:49,040 | INFO: ### PASSO 6 - MUN_DOM
+2016-01-04 20:16:49,112 | INFO: Verificando Range da variável: MUN_DOM
+2016-01-04 20:16:49,120 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:16,342 | INFO: MUN_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:16,344 | INFO: 
+2016-01-04 20:16:49,178 | INFO: MUN_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:49,180 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,344 | INFO: ### PASSO 7 - F_DOM
-2016-01-03 11:58:16,345 | INFO: Verificando a variável Dummy: F_DOM
-2016-01-03 11:58:16,360 | INFO: F_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:16,363 | INFO: 
+2016-01-04 20:16:49,180 | INFO: ### PASSO 7 - F_DOM
+2016-01-04 20:16:49,181 | INFO: Verificando a variável Dummy: F_DOM
+2016-01-04 20:16:49,190 | INFO: F_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:49,191 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,363 | INFO: ### PASSO 8 - FE_DOM
-2016-01-03 11:58:16,364 | INFO: 
+2016-01-04 20:16:49,191 | INFO: ### PASSO 8 - FE_DOM
+2016-01-04 20:16:49,192 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,364 | INFO: ### PASSO 9 - TIPO_DOM
-2016-01-03 11:58:16,662 | INFO: Verificando a variável Dummy: TIPO_DOM
-2016-01-03 11:58:16,681 | INFO: TIPO_DOM: Nenhum erro encontrado.
-2016-01-03 11:58:16,683 | INFO: 
+2016-01-04 20:16:49,192 | INFO: ### PASSO 9 - TIPO_DOM
+2016-01-04 20:16:49,324 | INFO: Verificando a variável Dummy: TIPO_DOM
+2016-01-04 20:16:49,334 | INFO: TIPO_DOM: Nenhum erro encontrado.
+2016-01-04 20:16:49,335 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,683 | INFO: ### PASSO 10 - TOT_FAM
-2016-01-03 11:58:16,684 | INFO: 
+2016-01-04 20:16:49,335 | INFO: ### PASSO 10 - TOT_FAM
+2016-01-04 20:16:49,336 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,684 | INFO: ### PASSO 11 - F_FAM
-2016-01-03 11:58:16,686 | INFO: Verificando a variável Dummy: F_FAM
-2016-01-03 11:58:16,698 | INFO: F_FAM: Nenhum erro encontrado.
-2016-01-03 11:58:16,700 | INFO: 
+2016-01-04 20:16:49,336 | INFO: ### PASSO 11 - F_FAM
+2016-01-04 20:16:49,337 | INFO: Verificando a variável Dummy: F_FAM
+2016-01-04 20:16:49,346 | INFO: F_FAM: Nenhum erro encontrado.
+2016-01-04 20:16:49,349 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,700 | INFO: ### PASSO 12 - FE_FAM
-2016-01-03 11:58:16,701 | INFO: 
+2016-01-04 20:16:49,349 | INFO: ### PASSO 12 - FE_FAM
+2016-01-04 20:16:49,350 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,701 | INFO: ### PASSO 13 - COND_MORA
-2016-01-03 11:58:16,960 | INFO: Verificando Range da variável: COND_MORA
-2016-01-03 11:58:16,968 | INFO: 
+2016-01-04 20:16:49,350 | INFO: ### PASSO 13 - COND_MORA
+2016-01-04 20:16:49,486 | INFO: Verificando Range da variável: COND_MORA
+2016-01-04 20:16:49,494 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 3
         - Total de registros: 199647
         - Registros nulos (NA): 178
 
-2016-01-03 11:58:16,979 | INFO: COND_MORA: Nenhum erro encontrado.
-2016-01-03 11:58:16,981 | INFO: 
+2016-01-04 20:16:49,504 | INFO: COND_MORA: Nenhum erro encontrado.
+2016-01-04 20:16:49,506 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:16,981 | INFO: ### PASSO 14 - QT_AUTO
-2016-01-03 11:58:16,982 | INFO: 
+2016-01-04 20:16:49,506 | INFO: ### PASSO 14 - QT_AUTO
+2016-01-04 20:16:49,507 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,016 | INFO: ### PASSO 15 - QT_BICI
-2016-01-03 11:58:17,017 | INFO: 
+2016-01-04 20:16:49,528 | INFO: ### PASSO 15 - QT_BICI
+2016-01-04 20:16:49,530 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,063 | INFO: ### PASSO 16 - QT_MOTO
-2016-01-03 11:58:17,065 | INFO: 
+2016-01-04 20:16:49,567 | INFO: ### PASSO 16 - QT_MOTO
+2016-01-04 20:16:49,568 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,065 | INFO: ### PASSO 17 - REN_FAM
-2016-01-03 11:58:17,179 | INFO: ### PASSO 18 - CD_RENFAM
-2016-01-03 11:58:17,322 | INFO: Verificando Range da variável: CD_RENFAM
-2016-01-03 11:58:17,333 | INFO: 
+2016-01-04 20:16:49,568 | INFO: ### PASSO 17 - REN_FAM
+2016-01-04 20:16:49,632 | INFO: ### PASSO 18 - CD_RENFAM
+2016-01-04 20:16:49,723 | INFO: Verificando Range da variável: CD_RENFAM
+2016-01-04 20:16:49,731 | INFO: 
 
         - Mínimo esperado: 0
         - Máximo esperado: 2
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:17,345 | INFO: CD_RENFAM: Nenhum erro encontrado.
-2016-01-03 11:58:17,348 | INFO: 
+2016-01-04 20:16:49,739 | INFO: CD_RENFAM: Nenhum erro encontrado.
+2016-01-04 20:16:49,740 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,348 | INFO: ### PASSO 19 - F_PESS
-2016-01-03 11:58:17,349 | INFO: Verificando a variável Dummy: F_PESS
-2016-01-03 11:58:17,363 | INFO: F_PESS: Nenhum erro encontrado.
-2016-01-03 11:58:17,365 | INFO: 
+2016-01-04 20:16:49,740 | INFO: ### PASSO 19 - F_PESS
+2016-01-04 20:16:49,741 | INFO: Verificando a variável Dummy: F_PESS
+2016-01-04 20:16:49,750 | INFO: F_PESS: Nenhum erro encontrado.
+2016-01-04 20:16:49,751 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,365 | INFO: ### PASSO 20 - FE_PESS
-2016-01-03 11:58:17,367 | INFO: 
+2016-01-04 20:16:49,751 | INFO: ### PASSO 20 - FE_PESS
+2016-01-04 20:16:49,752 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,367 | INFO: ### PASSO 21 - SIT_FAM
-2016-01-03 11:58:17,368 | INFO: Verificando Range da variável: SIT_FAM
-2016-01-03 11:58:17,380 | INFO: 
+2016-01-04 20:16:49,752 | INFO: ### PASSO 21 - SIT_FAM
+2016-01-04 20:16:49,753 | INFO: Verificando Range da variável: SIT_FAM
+2016-01-04 20:16:49,760 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 6
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:17,394 | INFO: SIT_FAM: Nenhum erro encontrado.
-2016-01-03 11:58:17,397 | INFO: 
+2016-01-04 20:16:49,768 | INFO: SIT_FAM: Nenhum erro encontrado.
+2016-01-04 20:16:49,769 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,397 | INFO: ### PASSO 22 - IDADE
-2016-01-03 11:58:17,400 | INFO: 
+2016-01-04 20:16:49,769 | INFO: ### PASSO 22 - IDADE
+2016-01-04 20:16:49,770 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,400 | INFO: ### PASSO 23 - SEXO
-2016-01-03 11:58:17,611 | INFO: Verificando a variável Dummy: SEXO
-2016-01-03 11:58:17,623 | INFO: SEXO: Nenhum erro encontrado.
-2016-01-03 11:58:17,625 | INFO: 
+2016-01-04 20:16:49,770 | INFO: ### PASSO 23 - SEXO
+2016-01-04 20:16:49,899 | INFO: Verificando a variável Dummy: SEXO
+2016-01-04 20:16:49,908 | INFO: SEXO: Nenhum erro encontrado.
+2016-01-04 20:16:49,909 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,625 | INFO: ### PASSO 24 - GRAU_INSTR
-2016-01-03 11:58:17,771 | INFO: Verificando Range da variável: GRAU_INSTR
-2016-01-03 11:58:17,779 | INFO: 
+2016-01-04 20:16:49,909 | INFO: ### PASSO 24 - GRAU_INSTR
+2016-01-04 20:16:50,008 | INFO: Verificando Range da variável: GRAU_INSTR
+2016-01-04 20:16:50,016 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 4
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:17,860 | INFO: GRAU_INSTR: Nenhum erro encontrado.
-2016-01-03 11:58:17,862 | INFO: 
+2016-01-04 20:16:50,081 | INFO: GRAU_INSTR: Nenhum erro encontrado.
+2016-01-04 20:16:50,083 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:17,863 | INFO: ### PASSO 25 - OCUP
-2016-01-03 11:58:18,005 | INFO: Verificando Range da variável: OCUP
-2016-01-03 11:58:18,016 | INFO: 
+2016-01-04 20:16:50,083 | INFO: ### PASSO 25 - OCUP
+2016-01-04 20:16:50,187 | INFO: Verificando Range da variável: OCUP
+2016-01-04 20:16:50,194 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 7
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:18,125 | INFO: OCUP: Nenhum erro encontrado.
-2016-01-03 11:58:18,127 | INFO: 
+2016-01-04 20:16:50,256 | INFO: OCUP: Nenhum erro encontrado.
+2016-01-04 20:16:50,258 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:18,127 | INFO: ### PASSO 26 - SETOR_ATIV
-2016-01-03 11:58:18,128 | INFO: Lendo arquivo de referência externa setor_ativ-1997.csv
-2016-01-03 11:58:18,301 | INFO: Verificando Range da variável: SETOR_ATIV
-2016-01-03 11:58:18,309 | INFO: 
+2016-01-04 20:16:50,258 | INFO: ### PASSO 26 - SETOR_ATIV
+2016-01-04 20:16:50,259 | INFO: Lendo arquivo de referência externa setor_ativ-1997.csv
+2016-01-04 20:16:50,453 | INFO: Verificando Range da variável: SETOR_ATIV
+2016-01-04 20:16:50,464 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 0
 
-2016-01-03 11:58:18,385 | INFO: SETOR_ATIV: Nenhum erro encontrado.
-2016-01-03 11:58:18,387 | INFO: 
+2016-01-04 20:16:50,550 | INFO: SETOR_ATIV: Nenhum erro encontrado.
+2016-01-04 20:16:50,551 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:18,387 | INFO: ### PASSO 27 - REN_IND
-2016-01-03 11:58:18,457 | INFO: ### PASSO 28 - CD_RENIND
-2016-01-03 11:58:18,683 | INFO: Verificando a variável Dummy: CD_RENIND
-2016-01-03 11:58:18,727 | INFO: CD_RENIND: Nenhum erro encontrado.
-2016-01-03 11:58:18,729 | INFO: 
+2016-01-04 20:16:50,551 | INFO: ### PASSO 27 - REN_IND
+2016-01-04 20:16:50,630 | INFO: ### PASSO 28 - CD_RENIND
+2016-01-04 20:16:50,816 | INFO: Verificando a variável Dummy: CD_RENIND
+2016-01-04 20:16:50,854 | INFO: CD_RENIND: Nenhum erro encontrado.
+2016-01-04 20:16:50,856 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:18,729 | INFO: ### PASSO 29 - F_VIAG
-2016-01-03 11:58:18,899 | INFO: Verificando a variável Dummy: F_VIAG
-2016-01-03 11:58:18,910 | INFO: F_VIAG: Nenhum erro encontrado.
-2016-01-03 11:58:18,912 | INFO: 
+2016-01-04 20:16:50,856 | INFO: ### PASSO 29 - F_VIAG
+2016-01-04 20:16:51,006 | INFO: Verificando a variável Dummy: F_VIAG
+2016-01-04 20:16:51,016 | INFO: F_VIAG: Nenhum erro encontrado.
+2016-01-04 20:16:51,017 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:18,912 | INFO: ### PASSO 30 - FE_VIAG
-2016-01-03 11:58:18,913 | INFO: 
+2016-01-04 20:16:51,017 | INFO: ### PASSO 30 - FE_VIAG
+2016-01-04 20:16:51,018 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:18,913 | INFO: ### PASSO 31 - ZONA_ESC
-2016-01-03 11:58:18,983 | INFO: Verificando Range da variável: ZONA_ESC
-2016-01-03 11:58:18,992 | INFO: 
+2016-01-04 20:16:51,018 | INFO: ### PASSO 31 - ZONA_ESC
+2016-01-04 20:16:51,083 | INFO: Verificando Range da variável: ZONA_ESC
+2016-01-04 20:16:51,091 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 134127
 
-2016-01-03 11:58:19,097 | INFO: ZONA_ESC: Nenhum erro encontrado.
-2016-01-03 11:58:19,099 | INFO: 
+2016-01-04 20:16:51,183 | INFO: ZONA_ESC: Nenhum erro encontrado.
+2016-01-04 20:16:51,184 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,099 | INFO: ### PASSO 32 - SUBZONA_ESC
-2016-01-03 11:58:19,171 | INFO: Verificando Range da variável: SUBZONA_ESC
-2016-01-03 11:58:19,180 | INFO: 
+2016-01-04 20:16:51,184 | INFO: ### PASSO 32 - SUBZONA_ESC
+2016-01-04 20:16:51,248 | INFO: Verificando Range da variável: SUBZONA_ESC
+2016-01-04 20:16:51,256 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 134127
 
-2016-01-03 11:58:19,265 | INFO: SUBZONA_ESC: Nenhum erro encontrado.
-2016-01-03 11:58:19,267 | INFO: 
+2016-01-04 20:16:51,334 | INFO: SUBZONA_ESC: Nenhum erro encontrado.
+2016-01-04 20:16:51,335 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,267 | INFO: ### PASSO 33 - MUN_ESC
-2016-01-03 11:58:19,335 | INFO: Verificando Range da variável: MUN_ESC
-2016-01-03 11:58:19,344 | INFO: 
+2016-01-04 20:16:51,335 | INFO: ### PASSO 33 - MUN_ESC
+2016-01-04 20:16:51,397 | INFO: Verificando Range da variável: MUN_ESC
+2016-01-04 20:16:51,405 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 134127
 
-2016-01-03 11:58:19,432 | INFO: MUN_ESC: Nenhum erro encontrado.
-2016-01-03 11:58:19,433 | INFO: 
+2016-01-04 20:16:51,479 | INFO: MUN_ESC: Nenhum erro encontrado.
+2016-01-04 20:16:51,480 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,434 | INFO: ### PASSO 34 - ESTUDA
-2016-01-03 11:58:19,466 | INFO: Verificando a variável Dummy: ESTUDA
-2016-01-03 11:58:19,478 | INFO: ESTUDA: Nenhum erro encontrado.
-2016-01-03 11:58:19,480 | INFO: 
+2016-01-04 20:16:51,480 | INFO: ### PASSO 34 - ESTUDA
+2016-01-04 20:16:51,509 | INFO: Verificando a variável Dummy: ESTUDA
+2016-01-04 20:16:51,519 | INFO: ESTUDA: Nenhum erro encontrado.
+2016-01-04 20:16:51,520 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,480 | INFO: ### PASSO 35 - ZONA_TRAB1
-2016-01-03 11:58:19,548 | INFO: Verificando Range da variável: ZONA_TRAB1
-2016-01-03 11:58:19,558 | INFO: 
+2016-01-04 20:16:51,520 | INFO: ### PASSO 35 - ZONA_TRAB1
+2016-01-04 20:16:51,579 | INFO: Verificando Range da variável: ZONA_TRAB1
+2016-01-04 20:16:51,588 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 98370
 
-2016-01-03 11:58:19,693 | INFO: ZONA_TRAB1: Nenhum erro encontrado.
-2016-01-03 11:58:19,695 | INFO: 
+2016-01-04 20:16:51,695 | INFO: ZONA_TRAB1: Nenhum erro encontrado.
+2016-01-04 20:16:51,696 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,695 | INFO: ### PASSO 36 - SUBZONA_TRAB1
-2016-01-03 11:58:19,768 | INFO: Verificando Range da variável: SUBZONA_TRAB1
-2016-01-03 11:58:19,776 | INFO: 
+2016-01-04 20:16:51,696 | INFO: ### PASSO 36 - SUBZONA_TRAB1
+2016-01-04 20:16:51,759 | INFO: Verificando Range da variável: SUBZONA_TRAB1
+2016-01-04 20:16:51,767 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 98370
 
-2016-01-03 11:58:19,908 | INFO: SUBZONA_TRAB1: Nenhum erro encontrado.
-2016-01-03 11:58:19,910 | INFO: 
+2016-01-04 20:16:51,873 | INFO: SUBZONA_TRAB1: Nenhum erro encontrado.
+2016-01-04 20:16:51,874 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:19,910 | INFO: ### PASSO 37 - MUN_TRAB1
-2016-01-03 11:58:19,974 | INFO: Verificando Range da variável: MUN_TRAB1
-2016-01-03 11:58:19,984 | INFO: 
+2016-01-04 20:16:51,874 | INFO: ### PASSO 37 - MUN_TRAB1
+2016-01-04 20:16:51,930 | INFO: Verificando Range da variável: MUN_TRAB1
+2016-01-04 20:16:51,938 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 98370
 
-2016-01-03 11:58:20,104 | INFO: MUN_TRAB1: Nenhum erro encontrado.
-2016-01-03 11:58:20,106 | INFO: 
+2016-01-04 20:16:52,043 | INFO: MUN_TRAB1: Nenhum erro encontrado.
+2016-01-04 20:16:52,044 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:20,106 | INFO: ### PASSO 38 - ZONA_TRAB2
-2016-01-03 11:58:20,179 | INFO: Verificando Range da variável: ZONA_TRAB2
-2016-01-03 11:58:20,186 | INFO: 
+2016-01-04 20:16:52,044 | INFO: ### PASSO 38 - ZONA_TRAB2
+2016-01-04 20:16:52,100 | INFO: Verificando Range da variável: ZONA_TRAB2
+2016-01-04 20:16:52,106 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 196669
 
-2016-01-03 11:58:20,307 | INFO: ZONA_TRAB2: Nenhum erro encontrado.
-2016-01-03 11:58:20,309 | INFO: 
+2016-01-04 20:16:52,212 | INFO: ZONA_TRAB2: Nenhum erro encontrado.
+2016-01-04 20:16:52,213 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:20,309 | INFO: ### PASSO 39 - SUBZONA_TRAB2
-2016-01-03 11:58:20,374 | INFO: Verificando Range da variável: SUBZONA_TRAB2
-2016-01-03 11:58:20,384 | INFO: 
+2016-01-04 20:16:52,213 | INFO: ### PASSO 39 - SUBZONA_TRAB2
+2016-01-04 20:16:52,268 | INFO: Verificando Range da variável: SUBZONA_TRAB2
+2016-01-04 20:16:52,275 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 196669
 
-2016-01-03 11:58:20,511 | INFO: SUBZONA_TRAB2: Nenhum erro encontrado.
-2016-01-03 11:58:20,513 | INFO: 
+2016-01-04 20:16:52,394 | INFO: SUBZONA_TRAB2: Nenhum erro encontrado.
+2016-01-04 20:16:52,395 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:20,513 | INFO: ### PASSO 40 - MUN_TRAB2
-2016-01-03 11:58:20,574 | INFO: Verificando Range da variável: MUN_TRAB2
-2016-01-03 11:58:20,582 | INFO: 
+2016-01-04 20:16:52,396 | INFO: ### PASSO 40 - MUN_TRAB2
+2016-01-04 20:16:52,449 | INFO: Verificando Range da variável: MUN_TRAB2
+2016-01-04 20:16:52,456 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 196669
 
-2016-01-03 11:58:20,727 | INFO: MUN_TRAB2: Nenhum erro encontrado.
-2016-01-03 11:58:20,729 | INFO: 
+2016-01-04 20:16:52,572 | INFO: MUN_TRAB2: Nenhum erro encontrado.
+2016-01-04 20:16:52,573 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:20,729 | INFO: ### PASSO 41 - ZONA_ORIG
-2016-01-03 11:58:20,796 | INFO: Verificando Range da variável: ZONA_ORIG
-2016-01-03 11:58:20,807 | INFO: 
+2016-01-04 20:16:52,573 | INFO: ### PASSO 41 - ZONA_ORIG
+2016-01-04 20:16:52,625 | INFO: Verificando Range da variável: ZONA_ORIG
+2016-01-04 20:16:52,633 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:20,987 | INFO: ZONA_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:20,990 | INFO: 
+2016-01-04 20:16:52,749 | INFO: ZONA_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:52,750 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:20,991 | INFO: ### PASSO 42 - SUBZONA_ORIG
-2016-01-03 11:58:21,036 | INFO: Verificando Range da variável: SUBZONA_ORIG
-2016-01-03 11:58:21,050 | INFO: 
+2016-01-04 20:16:52,750 | INFO: ### PASSO 42 - SUBZONA_ORIG
+2016-01-04 20:16:52,807 | INFO: Verificando Range da variável: SUBZONA_ORIG
+2016-01-04 20:16:52,815 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:21,235 | INFO: SUBZONA_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:21,238 | INFO: 
+2016-01-04 20:16:52,934 | INFO: SUBZONA_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:52,936 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:21,238 | INFO: ### PASSO 43 - MUN_ORIG
-2016-01-03 11:58:21,307 | INFO: Verificando Range da variável: MUN_ORIG
-2016-01-03 11:58:21,317 | INFO: 
+2016-01-04 20:16:52,936 | INFO: ### PASSO 43 - MUN_ORIG
+2016-01-04 20:16:52,966 | INFO: Verificando Range da variável: MUN_ORIG
+2016-01-04 20:16:52,974 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:21,469 | INFO: MUN_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:21,471 | INFO: 
+2016-01-04 20:16:53,097 | INFO: MUN_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:53,099 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:21,471 | INFO: ### PASSO 44 - ZONA_DEST
-2016-01-03 11:58:21,507 | INFO: Verificando Range da variável: ZONA_DEST
-2016-01-03 11:58:21,517 | INFO: 
+2016-01-04 20:16:53,099 | INFO: ### PASSO 44 - ZONA_DEST
+2016-01-04 20:16:53,145 | INFO: Verificando Range da variável: ZONA_DEST
+2016-01-04 20:16:53,153 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 389
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:21,667 | INFO: ZONA_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:21,669 | INFO: 
+2016-01-04 20:16:53,281 | INFO: ZONA_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:53,282 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:21,669 | INFO: ### PASSO 45 - SUBZONA_DEST
-2016-01-03 11:58:21,724 | INFO: Verificando Range da variável: SUBZONA_DEST
-2016-01-03 11:58:21,733 | INFO: 
+2016-01-04 20:16:53,282 | INFO: ### PASSO 45 - SUBZONA_DEST
+2016-01-04 20:16:53,310 | INFO: Verificando Range da variável: SUBZONA_DEST
+2016-01-04 20:16:53,318 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:21,884 | INFO: SUBZONA_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:21,886 | INFO: 
+2016-01-04 20:16:53,439 | INFO: SUBZONA_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:53,440 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:21,886 | INFO: ### PASSO 46 - MUN_DEST
-2016-01-03 11:58:21,921 | INFO: Verificando Range da variável: MUN_DEST
-2016-01-03 11:58:21,931 | INFO: 
+2016-01-04 20:16:53,440 | INFO: ### PASSO 46 - MUN_DEST
+2016-01-04 20:16:53,485 | INFO: Verificando Range da variável: MUN_DEST
+2016-01-04 20:16:53,493 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 39
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:22,075 | INFO: MUN_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:22,077 | INFO: 
+2016-01-04 20:16:53,619 | INFO: MUN_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:53,621 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:22,077 | INFO: ### PASSO 47 - SERV_PAS_ORIG
-2016-01-03 11:58:22,278 | INFO: Verificando a variável Dummy: SERV_PAS_ORIG
-2016-01-03 11:58:22,323 | INFO: SERV_PAS_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:22,326 | INFO: 
+2016-01-04 20:16:53,621 | INFO: ### PASSO 47 - SERV_PAS_ORIG
+2016-01-04 20:16:53,774 | INFO: Verificando a variável Dummy: SERV_PAS_ORIG
+2016-01-04 20:16:53,821 | INFO: SERV_PAS_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:53,825 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:22,326 | INFO: ### PASSO 48 - SERV_PAS_DEST
-2016-01-03 11:58:22,509 | INFO: Verificando a variável Dummy: SERV_PAS_DEST
-2016-01-03 11:58:22,558 | INFO: SERV_PAS_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:22,562 | INFO: 
+2016-01-04 20:16:53,825 | INFO: ### PASSO 48 - SERV_PAS_DEST
+2016-01-04 20:16:53,998 | INFO: Verificando a variável Dummy: SERV_PAS_DEST
+2016-01-04 20:16:54,037 | INFO: SERV_PAS_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:54,039 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:22,562 | INFO: ### PASSO 49 - MOTIVO_ORIG
-2016-01-03 11:58:22,612 | INFO: Verificando Range da variável: MOTIVO_ORIG
-2016-01-03 11:58:22,621 | INFO: 
+2016-01-04 20:16:54,039 | INFO: ### PASSO 49 - MOTIVO_ORIG
+2016-01-04 20:16:54,065 | INFO: Verificando Range da variável: MOTIVO_ORIG
+2016-01-04 20:16:54,074 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:22,780 | INFO: MOTIVO_ORIG: Nenhum erro encontrado.
-2016-01-03 11:58:22,782 | INFO: 
+2016-01-04 20:16:54,208 | INFO: MOTIVO_ORIG: Nenhum erro encontrado.
+2016-01-04 20:16:54,210 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:22,782 | INFO: ### PASSO 50 - MOTIVO_DEST
-2016-01-03 11:58:22,814 | INFO: Verificando Range da variável: MOTIVO_DEST
-2016-01-03 11:58:22,826 | INFO: 
+2016-01-04 20:16:54,210 | INFO: ### PASSO 50 - MOTIVO_DEST
+2016-01-04 20:16:54,252 | INFO: Verificando Range da variável: MOTIVO_DEST
+2016-01-04 20:16:54,260 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 9
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:22,992 | INFO: MOTIVO_DEST: Nenhum erro encontrado.
-2016-01-03 11:58:22,994 | INFO: 
+2016-01-04 20:16:54,399 | INFO: MOTIVO_DEST: Nenhum erro encontrado.
+2016-01-04 20:16:54,401 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:22,994 | INFO: ### PASSO 51 - MODO1
-2016-01-03 11:58:23,101 | INFO: Verificando Range da variável: MODO1
-2016-01-03 11:58:23,110 | INFO: 
+2016-01-04 20:16:54,401 | INFO: ### PASSO 51 - MODO1
+2016-01-04 20:16:54,489 | INFO: Verificando Range da variável: MODO1
+2016-01-04 20:16:54,497 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 12
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:23,286 | INFO: MODO1: Nenhum erro encontrado.
-2016-01-03 11:58:23,289 | INFO: 
+2016-01-04 20:16:54,638 | INFO: MODO1: Nenhum erro encontrado.
+2016-01-04 20:16:54,640 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:23,290 | INFO: ### PASSO 52 - MODO3
-2016-01-03 11:58:23,388 | INFO: Verificando Range da variável: MODO2
-2016-01-03 11:58:23,396 | INFO: 
+2016-01-04 20:16:54,640 | INFO: ### PASSO 52 - MODO3
+2016-01-04 20:16:54,738 | INFO: Verificando Range da variável: MODO2
+2016-01-04 20:16:54,745 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 12
         - Total de registros: 199647
         - Registros nulos (NA): 185334
 
-2016-01-03 11:58:23,556 | INFO: MODO2: Nenhum erro encontrado.
-2016-01-03 11:58:23,558 | INFO: 
+2016-01-04 20:16:54,893 | INFO: MODO2: Nenhum erro encontrado.
+2016-01-04 20:16:54,894 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:23,558 | INFO: ### PASSO 53 - MODO3
-2016-01-03 11:58:23,665 | INFO: Verificando Range da variável: MODO3
-2016-01-03 11:58:23,676 | INFO: 
+2016-01-04 20:16:54,894 | INFO: ### PASSO 53 - MODO3
+2016-01-04 20:16:54,973 | INFO: Verificando Range da variável: MODO3
+2016-01-04 20:16:54,980 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 12
         - Total de registros: 199647
         - Registros nulos (NA): 197363
 
-2016-01-03 11:58:23,883 | INFO: MODO3: Nenhum erro encontrado.
-2016-01-03 11:58:23,897 | INFO: 
+2016-01-04 20:16:55,118 | INFO: MODO3: Nenhum erro encontrado.
+2016-01-04 20:16:55,119 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:23,897 | INFO: ### PASSO 54 - MODO4
-2016-01-03 11:58:24,032 | INFO: Verificando Range da variável: MODO4
-2016-01-03 11:58:24,041 | INFO: 
+2016-01-04 20:16:55,119 | INFO: ### PASSO 54 - MODO4
+2016-01-04 20:16:55,208 | INFO: Verificando Range da variável: MODO4
+2016-01-04 20:16:55,215 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 12
         - Total de registros: 199647
         - Registros nulos (NA): 199496
 
-2016-01-03 11:58:24,294 | INFO: MODO4: Nenhum erro encontrado.
-2016-01-03 11:58:24,296 | INFO: 
+2016-01-04 20:16:55,361 | INFO: MODO4: Nenhum erro encontrado.
+2016-01-04 20:16:55,362 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:24,296 | INFO: ### PASSO 55 - MODO_PRIN
-2016-01-03 11:58:24,396 | INFO: Verificando Range da variável: MODO_PRIN
-2016-01-03 11:58:24,404 | INFO: 
+2016-01-04 20:16:55,362 | INFO: ### PASSO 55 - MODO_PRIN
+2016-01-04 20:16:55,474 | INFO: Verificando Range da variável: MODO_PRIN
+2016-01-04 20:16:55,484 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 12
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:24,647 | INFO: MODO_PRIN: Nenhum erro encontrado.
-2016-01-03 11:58:24,654 | INFO: 
+2016-01-04 20:16:55,681 | INFO: MODO_PRIN: Nenhum erro encontrado.
+2016-01-04 20:16:55,682 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:24,654 | INFO: ### PASSO 56 - TIPO_VIAG
-2016-01-03 11:58:24,699 | INFO: Verificando Range da variável: TIPO_VIAG
-2016-01-03 11:58:24,709 | INFO: 
+2016-01-04 20:16:55,682 | INFO: ### PASSO 56 - TIPO_VIAG
+2016-01-04 20:16:55,717 | INFO: Verificando Range da variável: TIPO_VIAG
+2016-01-04 20:16:55,725 | INFO: 
 
         - Mínimo esperado: 1
         - Máximo esperado: 3
         - Total de registros: 199647
         - Registros nulos (NA): 36106
 
-2016-01-03 11:58:24,939 | INFO: TIPO_VIAG: Nenhum erro encontrado.
-2016-01-03 11:58:24,941 | INFO: 
+2016-01-04 20:16:55,898 | INFO: TIPO_VIAG: Nenhum erro encontrado.
+2016-01-04 20:16:55,903 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:24,941 | INFO: ### PASSO 57 - TIPO_EST_AUTO
-2016-01-03 11:58:25,022 | INFO: 
+2016-01-04 20:16:55,903 | INFO: ### PASSO 57 - TIPO_EST_AUTO
+2016-01-04 20:16:55,980 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:25,023 | INFO: ### PASSO 58 - VALOR_EST_AUTO
-2016-01-03 11:58:25,100 | INFO: 
+2016-01-04 20:16:55,980 | INFO: ### PASSO 58 - VALOR_EST_AUTO
+2016-01-04 20:16:56,050 | INFO: 
 
 ===============================================
 
-2016-01-03 11:58:25,100 | INFO: ### PASSO 59 - COORDENADAS
-2016-01-03 11:58:25,102 | INFO: Lendo arquivo auxiliar de Coordenadas das subzonas
-2016-01-03 12:01:48,165 | INFO: 
+2016-01-04 20:16:56,050 | INFO: ### PASSO 59 - COORDENADAS
+2016-01-04 20:16:56,051 | INFO: Lendo arquivo auxiliar de Coordenadas das subzonas
+2016-01-04 20:19:41,934 | INFO: 
 
 ===============================================
 
-2016-01-03 12:01:48,166 | INFO: Gerando NO_DOM
-2016-01-03 12:01:48,325 | INFO: NO_DOM gerado
-2016-01-03 12:01:48,330 | INFO: Gerando ID_DOM
-2016-01-03 12:02:23,777 | INFO: ID_DOM gerado
-2016-01-03 12:02:23,859 | INFO: Gerando NO_FAM
-2016-01-03 12:02:39,206 | INFO: NO_FAM gerado
-2016-01-03 12:02:39,209 | INFO: Gerando ID_FAM
-2016-01-03 12:03:15,164 | INFO: ID_FAM gerado
-2016-01-03 12:03:15,212 | INFO: Gerando NO_PESS
-2016-01-03 12:03:23,579 | INFO: NO_PESS gerado
-2016-01-03 12:03:23,583 | INFO: Gerando ID_PESS
-2016-01-03 12:03:53,984 | INFO: ID_PESS gerado
-2016-01-03 12:03:54,018 | INFO: Gerando NO_VIAG
-2016-01-03 12:04:24,503 | INFO: NO_VIAG gerado
-2016-01-03 12:04:24,513 | INFO: Gerando ID_VIAG
-2016-01-03 12:04:58,470 | INFO: ID_VIAG gerado
-2016-01-03 12:04:58,515 | INFO: ### PASSO 61 - TOT_VIAG
-2016-01-03 12:04:58,519 | WARNING: 
+2016-01-04 20:19:41,934 | INFO: Gerando NO_DOM
+2016-01-04 20:19:42,063 | INFO: NO_DOM gerado
+2016-01-04 20:19:42,067 | INFO: Gerando ID_DOM
+2016-01-04 20:20:02,740 | INFO: ID_DOM gerado
+2016-01-04 20:20:02,777 | INFO: Gerando NO_FAM
+2016-01-04 20:20:08,432 | INFO: NO_FAM gerado
+2016-01-04 20:20:08,437 | INFO: Gerando ID_FAM
+2016-01-04 20:20:32,518 | INFO: ID_FAM gerado
+2016-01-04 20:20:32,553 | INFO: Gerando NO_PESS
+2016-01-04 20:20:39,701 | INFO: NO_PESS gerado
+2016-01-04 20:20:39,705 | INFO: Gerando ID_PESS
+2016-01-04 20:20:59,871 | INFO: ID_PESS gerado
+2016-01-04 20:20:59,904 | INFO: Gerando NO_VIAG
+2016-01-04 20:21:19,261 | INFO: NO_VIAG gerado
+2016-01-04 20:21:19,265 | INFO: Gerando ID_VIAG
+2016-01-04 20:21:39,285 | INFO: ID_VIAG gerado
+2016-01-04 20:21:39,322 | INFO: ### PASSO 61 - TOT_VIAG
+2016-01-04 20:21:39,326 | WARNING: 
 
 ##########################################
 Este passo DEVE ser executado apenas após a 
 execução dos passos que geram os novos IDs
 ##########################################
 
-2016-01-03 12:05:01,102 | INFO: TOT_VIAG:
+2016-01-04 20:21:41,149 | INFO: TOT_VIAG:
 
     Situação final dos dados: 
 count    199647.000000
@@ -782,28 +782,28 @@ Name: TOT_VIAG, dtype: float64
 21       21
 18       18
 dtype: int64
-2016-01-03 12:05:16,950 | INFO: 
+2016-01-04 20:21:54,966 | INFO: 
 
 ===============================================
 
-2016-01-03 12:05:16,953 | INFO: ### PASSO 62 - CD_ENTRE
-2016-01-03 12:05:16,957 | WARNING: 
+2016-01-04 20:21:54,968 | INFO: ### PASSO 62 - CD_ENTRE
+2016-01-04 20:21:54,971 | WARNING: 
 
 ##########################################
 Este passo DEVE ser executado apenas após a 
 execução do passo que geram o TOT_VIAG.
 ##########################################
 
-2016-01-03 12:05:17,001 | INFO: Verificando a variável Dummy: CD_ENTRE
-2016-01-03 12:05:17,026 | INFO: CD_ENTRE: Nenhum erro encontrado.
-2016-01-03 12:05:17,028 | INFO: 
+2016-01-04 20:21:54,998 | INFO: Verificando a variável Dummy: CD_ENTRE
+2016-01-04 20:21:55,017 | INFO: CD_ENTRE: Nenhum erro encontrado.
+2016-01-04 20:21:55,019 | INFO: 
 
 ===============================================
 
-2016-01-03 12:05:17,029 | INFO: ### PASSO 63 - Correções
-2016-01-03 12:05:17,030 | INFO: Corrigindo 'SERV_PAS' caso TOT_VIAG seja nulo.
-2016-01-03 12:05:17,050 | INFO: Salvando dataframe como arquivo CSV
-2016-01-03 12:05:31,381 | INFO: Base gerada. Arquivo: outputs/1997_od.csv
-2016-01-03 12:05:31,383 | INFO: Tempo total de execução: 471.04852843284607 segundos
-2016-01-03 12:05:31,384 | INFO: Horário de finalização: 12:05
-2016-01-03 12:05:31,385 | INFO: Terminou o main
+2016-01-04 20:21:55,020 | INFO: ### PASSO 63 - Correções
+2016-01-04 20:21:55,021 | INFO: Corrigindo 'SERV_PAS' caso TOT_VIAG seja nulo.
+2016-01-04 20:21:55,036 | INFO: Salvando dataframe como arquivo CSV
+2016-01-04 20:22:08,131 | INFO: Base gerada. Arquivo: outputs/1997_od.csv
+2016-01-04 20:22:08,135 | INFO: Tempo total de execução: 339.62694907188416 segundos
+2016-01-04 20:22:08,136 | INFO: Horário de finalização: 20:22
+2016-01-04 20:22:08,138 | INFO: Terminou o main
